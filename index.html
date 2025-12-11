@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeu de Mémoire</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>🧠 Jeu de Mémoire & Attention</h1>
+
+  <div id="menu">
+    <h2>Choisissez votre niveau</h2>
+    <button class="niveau-btn" id="btnFacile">
+      😊 Niveau 1 - Facile<br>
+      <small style="font-size: 0.7em;">Mémoriser 5 cartes dans l'ordre</small>
+    </button>
+    <button class="niveau-btn" id="btnMoyen">
+      🤔 Niveau 2 - Moyen<br>
+      <small style="font-size: 0.7em;">Mémoriser 15 cartes dans l'ordre</small>
+    </button>
+    <button class="niveau-btn" id="btnDifficile">
+      😰 Niveau 3 - Difficile<br>
+      <small style="font-size: 0.7em;">Mémoriser 30 cartes dans l'ordre</small>
+    </button>
+  </div>
+
+  <div id="jeu">
+    <div id="info"></div>
+    <div id="zoneCarte"></div>
+    <div id="grille"></div>
+    <div id="resultat"></div>
+    <button id="btnRecommencer" style="display:none;">🔄 Recommencer</button>
+    <button id="btnMenu" style="display:none;">🏠 Menu Principal</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
